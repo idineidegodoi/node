@@ -4,7 +4,7 @@ const res = require("express/lib/response");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Bem vindo até logo!");
+    res.send("Olá, seja Bem vindo!");
 });
 
 app.listen(8080, () => {
